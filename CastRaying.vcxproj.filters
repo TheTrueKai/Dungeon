@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{c2b36f5c-24e7-4efc-9252-630d953785dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\characters">
+      <UniqueIdentifier>{16a8a8ef-5280-4ff9-bbfa-4d3004e95182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures\map">
+      <UniqueIdentifier>{eec3a582-cecb-43a0-86cb-8e6df9075cd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\characters\Bigman.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Character.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Orc_Boso.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Orc_Level_1.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Orc_Level_2.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Red_Orc_Boso.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Red_Orc_Level_1.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Red_Orc_Level_2.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Shopkeeper.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Skelett_Level_1.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Skelett_Level_2.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\SkelettBoso.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\characters\Spellcaster.png">
+      <Filter>textures\characters</Filter>
+    </Image>
+    <Image Include="textures\map\barrel.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\bluestone.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\colorstone.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\eagle.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\greenlight.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\greystone.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\Image-Tileset zum verändern.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\Image-Tileset.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\mossy.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\nice.jpeg">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\pillar.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\purplestone.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\redbrick.png">
+      <Filter>textures\map</Filter>
+    </Image>
+    <Image Include="textures\map\wood.png">
+      <Filter>textures\map</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="textures\characters\Read Me.txt">
+      <Filter>textures\characters</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
